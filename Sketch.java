@@ -8,7 +8,7 @@ public class Sketch extends PApplet {
    */
   public void settings() {
 	// put your size call here
-    size(600, 600);
+    size(1000, 1000);
   }
 
   /** 
@@ -26,23 +26,23 @@ public class Sketch extends PApplet {
 	  
 	    //the sun
       fill(255, 255, 0);
-      ellipse(width, height/15, width/3, height/3);
+      ellipse(width, height / 15, width / 3, height / 3);
   
       //draws the ground
       fill(150, 75, 0);
-      rect(width*0, height-height/4, width, height/3);
+      rect(width * 0, height - height / 4, width, height / 3);
   
       //base of the house
       fill(255, 0, 0);
-      square(width/4, height/3, width/2);
+      square(width / 4, height / 3, width / 2);
   
       //draws the roof
       fill(212, 175, 55);
-      triangle(width/4, height/3, width/2, height/9, width/4 + width/2, height/3);
+      triangle(width / 4, height / 3, width / 2, height / 9, width / 4 + width / 2, height / 3);
   
       //draws a door on "top" of the house
       fill(34, 139, 34);
-      rect(width/2, height/2, width/5, height/3);
+      rect(width / 2, height / 2, width / 5, height / 3);
 
 
     
